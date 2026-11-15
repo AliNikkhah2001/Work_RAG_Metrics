@@ -1,7 +1,7 @@
 {
   "schema_version": "metrics-point/v1",
-  "ts": "2026-11-15T13:01:25Z",
-  "run_id": "20261115T130125Z-ai-gpu1",
+  "ts": "2026-11-15T14:31:02Z",
+  "run_id": "20261115T143102Z-ai-gpu1",
   "machine": "ai-gpu1",
   "status": "HEALTHY",
   "core_up": 4,
@@ -23,7 +23,7 @@
     "gemma": "up",
     "service:18100": "up",
     "service:18200": "up",
-    "service:13100": "down"
+    "service:13100": "up"
   },
   "http": {
     "manager": "200",
@@ -42,8 +42,12 @@
     "gemma": "200",
     "service:18100": "200",
     "service:18200": "200",
-    "service:13100": "000"
+    "service:13100": "200"
   },
   "qa": null,
-  "kb_match": null
+  "kb_match": "match",
+  "latency_e2e_p50_ms": 12805.6,
+  "jenkins_healthy": true,
+  "gpu_util_pct": 0.0,
+  "mem_used_mb": 90112.0
 }
