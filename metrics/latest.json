@@ -1,7 +1,7 @@
 {
   "schema_version": "metrics-point/v1",
-  "ts": "2026-11-16T21:19:06Z",
-  "run_id": "20261116T211906Z-ai-gpu1",
+  "ts": "2026-11-16T22:20:30Z",
+  "run_id": "20261116T222030Z-ai-gpu1",
   "machine": "ai-gpu1",
   "status": "HEALTHY",
   "core_up": 4,
@@ -46,7 +46,7 @@
   },
   "qa": null,
   "kb_match": "match",
-  "latency_e2e_p50_ms": 9962.7,
+  "latency_e2e_p50_ms": 8294.9,
   "jenkins_healthy": true,
   "gpu_util_pct": 0.0,
   "mem_used_mb": 92160.0
